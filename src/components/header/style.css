@@ -1,63 +1,68 @@
 /* Header */
 .header {
-	padding: 40px 0;
-	min-height: 695px;
+  padding: 40px 0;
+  min-height: 695px;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	background-color: var(--header-bg);
-	background-image: url('./../../img/header-bg.png');
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center center;
+  background-color: var(--header-bg);
+  background-image: url('./../../img/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
 
-	color: var(--header-text);
-	text-align: center;
+  color: var(--header-text);
+  text-align: center;
 }
 
 .header__wrapper {
-	padding: 0 15px;
-	max-width: 660px;
+  padding: 0 15px;
+  max-width: 660px;
 }
 
 .header__title {
-	margin-bottom: 20px;
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 1.4;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .header__title strong {
-	font-size: 60px;
-	font-weight: 700;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .header__title em {
-	font-style: normal;
-	color: var(--accent);
+  font-style: normal;
+  color: var(--accent);
 }
 
 .header__text {
-	margin-bottom: 40px;
-	font-size: 18px;
-	line-height: 1.333;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.333;
 }
 
 .header__text p + p {
-	margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .header__avatar {
-	display: initial;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
+  display: initial;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
+  transition: transform 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
-	@media screen and (min-width: 1200px) {
-		width: 250px;
-		height: 250px;
-	}
+  @media screen and (min-width: 1200px) {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.header__avatar:hover {
+  transform: scale(1.5);
 }
