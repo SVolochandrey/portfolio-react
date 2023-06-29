@@ -162,6 +162,10 @@ body {
 	top: 1px;
 }
 
+.slick-dots li button:before {
+	font-size: 10px !important;
+}
+
 /* Projects  */
 
 .projects {
@@ -172,6 +176,32 @@ body {
 	row-gap: 30px;
 }
 
+/* .slick-slider .slick-track {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slick-list {
+	padding: 15px !important;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+li.project::marker {
+	content: "" !important;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: var(--purple) !important;
+	font-size: 25px !important;
+}
+
+.slick-slide a {
+	display: flex;
+	justify-content: center;
+} */
 
 
 /* Project details */

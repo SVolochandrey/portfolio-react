@@ -13,6 +13,9 @@ import project04Big from "./../img/projects/04-big.jpg";
 import project05 from "./../img/projects/05.jpg";
 import project05Big from "./../img/projects/05-big.jpg";
 
+import project06 from "./../img/projects/06.jpg";
+import project06Big from "./../img/projects/06-big.jpg";
+
 const projects = [
 	{
 		title: 'Web-studio',
@@ -53,6 +56,14 @@ const projects = [
 		skills: 'React, Redux, JS, HTML, CSS',
 		gitHubLink: 'https://github.com/SVolochandrey/goit-react-hw-07-phonebook',
 		livePageLink: 'https://svolochandrey.github.io/goit-react-hw-07-phonebook/',
+	},
+	{
+		title: 'Tweets-app',
+		img: project06,
+		imgBig: project06Big,
+		skills: 'React, Redux, JS, HTML, CSS',
+		gitHubLink: 'https://github.com/SVolochandrey/tweets-app',
+		livePageLink: 'https://svolochandrey.github.io/tweets-app/tweets',
 	},
 ];
 
