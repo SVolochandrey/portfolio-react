@@ -172,36 +172,30 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	column-gap: 30px;
+	/* column-gap: 30px; */
 	row-gap: 30px;
 }
 
-/* .slick-slider .slick-track {
+.project-container {
+	display: flex;
+	justify-content: center;
+}
+
+.project::marker {
+	content: "";
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: var(--title-1) !important;
+}
+
+.slick-prev,
+.slick-next {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
-.slick-list {
-	padding: 15px !important;
-	border-radius: 10px;
-	display: flex;
-	justify-content: center;
-}
-
-li.project::marker {
-	content: "" !important;
-}
-
-.slick-prev:before, .slick-next:before {
-	color: var(--purple) !important;
-	font-size: 25px !important;
-}
-
-.slick-slide a {
-	display: flex;
-	justify-content: center;
-} */
 
 
 /* Project details */
