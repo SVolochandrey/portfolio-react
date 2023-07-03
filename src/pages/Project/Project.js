@@ -1,8 +1,9 @@
+import './Project.css';
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { projects } from './../helpers/projectsList';
+import { projects } from '../../helpers/projectsList';
 import { Transition } from 'react-transition-group';
-import BtnGitHub from '../components/btnGitHub/BtnGitHub';
+import BtnGitHub from '../../components/btnGitHub/BtnGitHub';
 
 const Project = () => {
   const { id } = useParams();

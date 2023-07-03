@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Project from './pages/Project';
-import Contacts from './pages/Contacts';
+import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
+import Project from './pages/Project/Project';
+import Contacts from './pages/Contacts/Contacts';
 
 import ScrollToTop from './utils/scrollToTop';
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Transition } from 'react-transition-group';
-import './style.css';
+import './Header.css';
 import avatar from './avatar.jpg';
 
 const Header = () => {
@@ -34,7 +34,7 @@ const Header = () => {
             ...transitionStyles[state],
           }}
         >
-          <div className="header__wrapper">
+          <div className="container">
             <img src={avatar} alt="avatar" className="header__avatar" />
             <h1 className="header__title">
               <strong>

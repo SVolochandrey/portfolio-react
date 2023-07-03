@@ -1,5 +1,4 @@
-import "./style.css";
-
+import "./Footer.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";

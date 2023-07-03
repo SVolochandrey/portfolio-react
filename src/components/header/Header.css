@@ -17,11 +17,6 @@
   text-align: center;
 }
 
-.header__wrapper {
-  padding: 0 15px;
-  max-width: 660px;
-}
-
 .header__title {
   margin-bottom: 20px;
   font-size: 40px;
