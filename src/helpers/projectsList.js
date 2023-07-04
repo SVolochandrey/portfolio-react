@@ -65,7 +65,7 @@ const projects = [
     gitHubLink: 'https://github.com/SVolochandrey/goit-react-hw-07-phonebook',
     livePageLink: 'https://svolochandrey.github.io/goit-react-hw-07-phonebook/',
     descr:
-      '[React, Redux, JS, API, HTML,CSS] Application with the ability to add, delete, and search for contacts in your phonebook. Role: developer.',
+      '[React, Redux, JS, API, HTML, CSS] Application with the ability to add, delete, and search for contacts in your phonebook. Role: developer.',
   },
   {
     title: 'Tweets-app',
@@ -75,7 +75,7 @@ const projects = [
     gitHubLink: 'https://github.com/SVolochandrey/tweets-app',
     livePageLink: 'https://svolochandrey.github.io/tweets-app/tweets',
     descr:
-      '[React, JS, API, HTML,CSS] Application with the ability to follow and unfollow people and the ability to filter subscriptions based on their status: "Follow", "No follow", "All".',
+      '[React, JS, API, HTML, CSS] Application with the ability to follow and unfollow people and the ability to filter subscriptions based on their status: "Follow", "No follow", "All".',
   },
 ];
 
