@@ -172,10 +172,6 @@ body {
   top: 1px;
 }
 
-.slick-dots li button:before {
-  font-size: 10px !important;
-}
-
 /* Content list */
 
 .content-list {
@@ -272,16 +268,6 @@ body {
 
   .content-list__item {
     font-size: 16px;
-  }
-
-  /* Footer */
-
-  .footer {
-    padding: 40px 0 30px;
-  }
-
-  .footer__wrapper {
-    row-gap: 20px;
   }
 
   /* Social */
